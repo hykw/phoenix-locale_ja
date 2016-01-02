@@ -14,7 +14,7 @@ msgstr "の値が空です"
 
 ## From Ecto.Changeset.unique_constraint/3
 msgid "has already been taken"
-msgstr "の値はもう使われています"
+msgstr "の値は既に使われています"
 
 ## From Ecto.Changeset.put_change/3
 msgid "is invalid"
@@ -30,7 +30,7 @@ msgstr "に無効な値が含まれています"
 
 ## From Ecto.Changeset.validate_exclusion/3
 msgid "is reserved"
-msgstr "の値はもう使われています"
+msgstr "の値は利用できません"
 
 ## From Ecto.Changeset.validate_confirmation/3
 msgid "does not match confirmation"
