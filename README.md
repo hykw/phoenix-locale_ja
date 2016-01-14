@@ -1,8 +1,10 @@
 # phoenix-locale_ja
 Phoenix Framework のエラーメッセージを日本語訳した .po ファイルです。
-2015/12/31 の master(9765d52)のen/LC_MESSAGES/errors.po を元にしています。
 
 [本家にプルリク](https://github.com/phoenixframework/phoenix/pull/1441) しましたが、 `we don't plan to host different translations.` とのことなので、ここに置いておくことにします。
+
+2015/12/31 の master(9765d52)の [en/LC_MESSAGES/errors.po](https://github.com/phoenixframework/phoenix/blob/master/installer/templates/new/priv/gettext/en/LC_MESSAGES/errors.po) を元にしています。元ファイルの更新に気づかないことがあるので、もし古かった場合は教えてもらえると助かります。
+
 
 # 利用方法
 ・ja/LC_MESSAGES/errors.po ファイルを `priv/gettext/` 以下、つまり `priv/gettext/ja/LC_MESSAGES/errors.po` として設置します
