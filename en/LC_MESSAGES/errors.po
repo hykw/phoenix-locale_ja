@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"Language: en\n"<%= if ecto do %>
+"Language: en\n"
 
 ## From Ecto.Changeset.cast/4
 msgid "can't be blank"
@@ -20,6 +20,10 @@ msgstr ""
 
 ## From Ecto.Changeset.put_change/3
 msgid "is invalid"
+msgstr ""
+
+## From Ecto.Changeset.validate_acceptance/3
+msgid "must be accepted"
 msgstr ""
 
 ## From Ecto.Changeset.validate_format/3
@@ -39,10 +43,10 @@ msgid "does not match confirmation"
 msgstr ""
 
 ## From Ecto.Changeset.no_assoc_constraint/3
-msgid "is still associated to this entry"
+msgid "is still associated with this entry"
 msgstr ""
 
-msgid "are still associated to this entry"
+msgid "are still associated with this entry"
 msgstr ""
 
 ## From Ecto.Changeset.validate_length/3
@@ -90,4 +94,4 @@ msgid "must be greater than or equal to %{number}"
 msgstr ""
 
 msgid "must be equal to %{number}"
-msgstr ""<% end %>
+msgstr ""
