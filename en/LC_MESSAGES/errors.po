@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"Language: en\n"
+"Language: en\n"<%= if ecto do %>
 
 ## From Ecto.Changeset.cast/4
 msgid "can't be blank"
@@ -94,4 +94,4 @@ msgid "must be greater than or equal to %{number}"
 msgstr ""
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr ""<% end %>
