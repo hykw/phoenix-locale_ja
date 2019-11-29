@@ -24,6 +24,10 @@ msgstr "の値は既に使われています"
 msgid "is invalid"
 msgstr "の値は無効です"
 
+## From Ecto.Changeset.validate_acceptance/3
+msgid "must be accepted"
+msgstr "を受諾してください"
+
 ## From Ecto.Changeset.validate_format/3
 msgid "has invalid format"
 msgstr "に無効な値が含まれています"
